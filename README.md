@@ -251,8 +251,6 @@ npm start
 GitHub:
 https://github.com/Rakhi-196
 
-LinkedIn:
-Add your LinkedIn profile link here
 
 ---
 
