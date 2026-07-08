@@ -1,109 +1,123 @@
-# 🚀 Skill Swap
+# 🚀 SkillSwap -Platform
 
-A modern full-stack skill exchange platform where users can connect with others, exchange skills, send swap requests, and communicate through real-time messaging.
+A modern full-stack **skill exchange platform** where users can connect with others, exchange skills, send swap requests, and communicate through real-time messaging.
 
-Built using **Next.js**, **Firebase**, **Cloud Firestore**, **Cloudinary**, **TypeScript**, and **Tailwind CSS**.
+Built using **Next.js, React, TypeScript, Firebase, Cloud Firestore, Cloudinary, and Tailwind CSS**.
 
 ---
 
-# 📌 Features
+## 🌐 Live Demo
+
+🔗 **Live Website:**
+https://skillswap-platform-kappa.vercel.app
+
+🔗 **GitHub Repository:**
+https://github.com/Rakhi-196/skillswap
+
+---
+
+# ✨ Features
 
 ## 🔐 Authentication
 
-- Email & Password Authentication
-- Google Sign In
-- Secure Authentication using Firebase
-- Protected Routes
+* Email & Password Authentication
+* Google Sign-In
+* Secure Authentication using Firebase
+* Protected Routes
+* User Session Management
 
 ---
 
 ## 👤 User Profile
 
-- Create Profile
-- Edit Profile
-- Upload Profile Image using Cloudinary
-- View Other User Profiles
+* Create and customize profiles
+* Edit profile information
+* Upload profile images using Cloudinary
+* View other user profiles
+* Manage skills and user details
 
 ---
 
 ## 🛠 Skill Management
 
-- Add Skills
-- Edit Skills
-- Delete Skills
-- Browse Available Skills
+* Add skills
+* Edit skills
+* Delete skills
+* Browse available skills
+* Discover users based on skills
 
 ---
 
-## 🤝 Skill Swap
+## 🤝 Skill Swap System
 
-- Send Swap Requests
-- Accept Swap Requests
-- Reject Swap Requests
-- View Pending Swaps
-- View Accepted Swaps
+* Send skill swap requests
+* Accept or reject requests
+* Track pending requests
+* View accepted swaps
+* Manage skill exchange activities
 
 ---
 
 ## 💬 Real-Time Messaging
 
-- One-to-One Chat
-- Real-Time Firestore Updates
-- Image Sharing
-- Conversation List
-- Latest Message Preview
-- Read / Unread Messages
+* One-to-one chat system
+* Real-time Firestore updates
+* Image sharing
+* Conversation list
+* Latest message preview
+* Read / Unread message status
 
 ---
 
-## 🔔 Notifications
+## 🔔 Notification System
 
-- Swap Request Notifications
-- New Message Notifications
-- Read / Unread Status
+* New message notifications
+* Swap request notifications
+* Read / Unread notification status
+* Real-time notification updates
 
 ---
 
 ## 🎨 User Interface
 
-- Responsive Design
-- Dark / Light Theme
-- Dashboard
-- Clean UI using Tailwind CSS
+* Responsive design
+* Dark / Light theme
+* Modern dashboard
+* Clean UI using Tailwind CSS
 
 ---
 
 # 🛠 Tech Stack
 
-### Frontend
+## Frontend
 
-- Next.js 14 (App Router)
-- React 18
-- TypeScript
-- Tailwind CSS
+* Next.js 14 (App Router)
+* React 18
+* TypeScript
+* Tailwind CSS
 
-### Backend
+## Backend & Database
 
-- Firebase Authentication
-- Cloud Firestore
+* Firebase Authentication
+* Cloud Firestore
 
-### Image Storage
+## Image Storage
 
-- Cloudinary
+* Cloudinary
 
-### State Management
+## State Management
 
-- React Context API
+* React Context API
 
-### Deployment
+## Deployment
 
-- Vercel
+* Vercel
 
 ---
 
 # 📂 Project Structure
 
-```
+```text
 skill-swap/
 
 │── app/
@@ -123,31 +137,37 @@ skill-swap/
 │── lib/
 │── public/
 │── package.json
+│── README.md
+│── LICENSE
 ```
 
 ---
 
-# ⚙️ Installation
+# ⚙️ Installation & Setup
 
 ## Clone Repository
 
 ```bash
-git clone https://github.com/your-username/skillswap-platform.git
+git clone https://github.com/Rakhi-196/skillswap.git
 ```
 
-Move into the project folder
+## Navigate to Project
 
 ```bash
-cd skillswap-platform
+cd skillswap
 ```
 
-Install dependencies
+## Install Dependencies
 
 ```bash
 npm install
 ```
 
-Create a `.env.local` file and add your Firebase and Cloudinary configuration.
+---
+
+## Environment Variables
+
+Create a `.env.local` file:
 
 ```env
 NEXT_PUBLIC_FIREBASE_API_KEY=
@@ -167,15 +187,17 @@ NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME=
 NEXT_PUBLIC_CLOUDINARY_UPLOAD_PRESET=
 ```
 
-Start the development server
+---
+
+## Run Development Server
 
 ```bash
 npm run dev
 ```
 
-Open
+Open:
 
-```
+```text
 http://localhost:3000
 ```
 
@@ -183,15 +205,15 @@ http://localhost:3000
 
 # 🚀 Deployment
 
-This project can be deployed easily using **Vercel**.
+The application is deployed using **Vercel**.
 
-Build the project
+Build:
 
 ```bash
 npm run build
 ```
 
-Run production build
+Start:
 
 ```bash
 npm start
@@ -199,39 +221,41 @@ npm start
 
 ---
 
-# 📦 Dependencies
+# 📦 Main Dependencies
 
-- Next.js
-- React
-- TypeScript
-- Tailwind CSS
-- Firebase
-- Cloudinary
-- React Context API
+* Next.js
+* React
+* TypeScript
+* Tailwind CSS
+* Firebase
+* Cloud Firestore
+* Cloudinary
+* React Context API
 
 ---
 
 # 🔮 Future Improvements
 
-- Search and Filter Improvements
-- Better Notification Management
-- UI Enhancements
-- Performance Optimization
+* Advanced skill search and filtering
+* Better recommendation system
+* Enhanced notification management
+* Performance optimization
+* More customization options
 
 ---
 
-# 👨‍💻 Developed By
+# 👨‍💻 Developer
 
 **Rakhi Chauhan**
 
 GitHub:
-https://github.com/your-github-username
+https://github.com/Rakhi-196
 
 LinkedIn:
-https://linkedin.com/in/your-linkedin
+Add your LinkedIn profile link here
 
 ---
 
-## 📄 License
+# 📄 License
 
 This project is licensed under the MIT License.
